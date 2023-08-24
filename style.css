@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html , body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+
+}
+header{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #270082;
+    padding: 10px 20px;
+    color: white;
+    scroll-behavior:smooth;
+}
+div{
+    scroll-margin: 50px;
+}
+ul{
+    list-style: none;
+}
+li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .options ul{
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+}
+.homesection{
+    background-image: url(Frame\ 1.png);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homesection .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+.homesection .container p{
+    text-align: center;
+    margin-left: 330px;
+    margin-right: 350px;
+}
+.homesection .container h1{
+    font-size: 36px;
+}
+.musicsection{
+    background-color: #281154;
+    height: 100vh;
+}
+.musicsection .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.musicsection .container .heading{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.musicsection .container .heading i{
+    font-size: 28px;
+}
+.musicsection .container button{
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+.musicsection .container .para1{
+    text-align: center;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.musicsection .container .para2{
+    font-size: 12px;
+    opacity: 0.8;
+}
+.musicsection .ipad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.musicsection .container2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.musicsection .container2 p{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    opacity: 0.8;
+}
+.musicsection .container2 button{
+    color: white;
+    background-color: #37008E;
+    border: none;
+    padding: 10px 15px;
+}
+.vediosection{
+    background-image: url(vedio.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.vediosection .container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1400px;
+    color: white;
+    align-items: center;
+    padding-top: 100px;
+    gap: 30px;
+}
+.vediosection .container p{
+    text-align: center;
+    margin-left: 150px ;
+    margin-right: 150px;
+}
+ .giftcardssection{
+    margin-top: 50px;
+ }
+.giftcardssection .container{
+
+    display: flex;
+    flex-direction: raw;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.giftcardssection .container .aboutcard{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 90px;
+}
+.giftcardssection .container .aboutcard p{
+    line-height: 35px;
+    
+}
+.giftcardssection .container .aboutcard button{
+    color: white;
+    background-color: #37008E;
+    border: none;
+    padding: 10px 15px;
+    width: 100px;
+    font-size: 16px;
+}
+
+footer .footer1{
+    background-color: #1B0058;
+    padding-top: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+footer .footer1 .first ul , .second ul , .third ul , .fourth ul{
+    padding-top: 20px;
+    font-size: 14px;
+}
+footer .footer1 .first h1 , .second h1 , .third h1 , .fourth h1{
+    font-size: 18px;
+    border-bottom: 2px solid white;
+}
+
+footer .footer2{
+    background-color: #270082;
+    /* height: 40px; */
+}
+footer .footer2 .container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
